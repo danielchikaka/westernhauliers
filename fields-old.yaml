@@ -1,0 +1,7 @@
+tabs:
+  
+  fields:
+    site_name:
+      label: Western Hauliers Company Ltd
+      comment: The website name
+      default: Western Hauliers Company Ltd
