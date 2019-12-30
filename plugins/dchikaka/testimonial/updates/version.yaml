@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table dchikaka_testimonial_testimonials'
+    - builder_table_create_dchikaka_testimonial_testimonials.php

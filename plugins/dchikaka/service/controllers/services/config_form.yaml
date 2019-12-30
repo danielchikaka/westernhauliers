@@ -1,0 +1,11 @@
+name: Services
+modelClass: dchikaka\service\Models\Service
+form: $/dchikaka/service/models/service/fields.yaml
+defaultRedirect: dchikaka/service/services
+create:
+    redirect: 'dchikaka/service/services/update/:id'
+    redirectClose: dchikaka/service/services
+update:
+    redirect: dchikaka/service/services
+    redirectClose: dchikaka/service/services
+preview: {  }

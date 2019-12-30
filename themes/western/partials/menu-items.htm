@@ -1,0 +1,18 @@
+description = "Partial for handling main menu items"
+
+[viewBag]
+==
+<ul class="menu">
+
+    {% for item in items %}
+    <li class="{{ item.isActive or item.isChildActive ? 'active' : '' }} 
+                        {{ item.items ? 'has-sub' : '' }}">
+        <a href="{{ item.url }}">
+            {{ item.title|_ }}
+        </a>
+        {% if item.items %}
+        {% partial 'menu-items' items=item.items class='dummy-class' %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

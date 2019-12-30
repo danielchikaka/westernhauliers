@@ -1,0 +1,22 @@
+plugin:
+    name: 'dchikaka.testimonial::lang.plugin.name'
+    description: 'dchikaka.testimonial::lang.plugin.description'
+    author: dchikaka
+    icon: oc-icon-lightbulb-o
+    homepage: ''
+permissions:
+    dchikaka.testimonial.manage_testmonial:
+        tab: 'dchikaka.testimonial::lang.plugin.name'
+        label: 'Manage Testimonials'
+navigation:
+    testimonials:
+        label: Testimonials
+        url: dchikaka/testimonial/testimonial
+        icon: icon-lightbulb-o
+        permissions:
+            - dchikaka.testimonial.manage_testmonial
+        sideMenu:
+            testimonials:
+                label: Testimonials
+                url: dchikaka/testimonial/testimonial
+                icon: icon-lightbulb-o

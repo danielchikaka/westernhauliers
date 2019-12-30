@@ -1,0 +1,28 @@
+description = "Menu container to handle main menu implementation"
+
+[viewBag]
+
+[staticMenu]
+code = "main-menu"
+==
+<div class="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="main-menu">
+                {% partial 'menu-items' items=staticMenu.menuItems class='menu' %}
+
+                <div class="right-section">
+                    <div class="search">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div class="quote-link">
+                        <a href="contact.html">Request a Quote</a>
+                    </div>
+                    <div class="search-input">
+                        <input type="text" name="s" placeholder="Type some text in here..." class="untouched">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

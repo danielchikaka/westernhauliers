@@ -1,0 +1,24 @@
+plugin:
+    name: 'dchikaka.whyus::lang.plugin.name'
+    description: 'dchikaka.whyus::lang.plugin.description'
+    author: dchikaka
+    icon: oc-icon-paw
+    homepage: ''
+permissions:
+    dchikaka.whyus.manage_whyus:
+        tab: 'dchikaka.whyus::lang.plugin.name'
+        label: 'dchikaka.whyus::lang.whyus.manage_whyus'
+navigation:
+    whyus:
+        label: 'Why Us'
+        url: dchikaka/whyus/whyus
+        icon: icon-group
+        permissions:
+            - dchikaka.whyus.manage_whyus
+        sideMenu:
+            whyus:
+                label: 'Why Us'
+                url: dchikaka/whyus/whyus
+                icon: icon-group
+                permissions:
+                    - dchikaka.whyus.manage_whyus

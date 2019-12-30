@@ -1,0 +1,24 @@
+plugin:
+    name: 'dchikaka.statistic::lang.plugin.name'
+    description: 'dchikaka.statistic::lang.plugin.description'
+    author: dchikaka
+    icon: oc-icon-area-chart
+    homepage: ''
+permissions:
+    dchikaka.statistic.manage_statistics:
+        tab: 'dchikaka.statistic::lang.plugin.name'
+        label: 'Manage Statistics'
+navigation:
+    statistics:
+        label: Statistics
+        url: dchikaka/statistic/statistic
+        icon: icon-area-chart
+        permissions:
+            - dchikaka.statistic.manage_statistics
+        sideMenu:
+            statistics:
+                label: Statistics
+                url: dchikaka/statistic/statistic
+                icon: icon-area-chart
+                permissions:
+                    - dchikaka.statistic.manage_statistics

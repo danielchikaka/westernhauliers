@@ -1,0 +1,10 @@
+name: Whyus
+form: $/dchikaka/whyus/models/whyus/fields.yaml
+modelClass: dchikaka\Whyus\Models\Whyus
+defaultRedirect: dchikaka/whyus/whyus
+create:
+    redirect: 'dchikaka/whyus/whyus/update/:id'
+    redirectClose: dchikaka/whyus/whyus
+update:
+    redirect: dchikaka/whyus/whyus
+    redirectClose: dchikaka/whyus/whyus

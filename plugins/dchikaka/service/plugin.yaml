@@ -1,0 +1,22 @@
+plugin:
+    name: 'dchikaka.service::lang.plugin.name'
+    description: 'dchikaka.service::lang.plugin.description'
+    author: dchikaka
+    icon: oc-icon-briefcase
+    homepage: ''
+permissions:
+    dchikaka.service.manage_service:
+        tab: 'dchikaka.service::lang.plugin.name'
+        label: 'dchikaka.service::lang.service.manage_services'
+navigation:
+    services:
+        label: Services
+        url: dchikaka/service/services
+        icon: icon-briefcase
+        permissions:
+            - dchikaka.service.manage_service
+        sideMenu:
+            services:
+                label: Services
+                url: dchikaka/service/services
+                icon: icon-briefcase

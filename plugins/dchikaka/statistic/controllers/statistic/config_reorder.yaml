@@ -1,0 +1,4 @@
+title: Statistic
+modelClass: dchikaka\Statistic\Models\Statistic
+toolbar:
+    buttons: reorder_toolbar

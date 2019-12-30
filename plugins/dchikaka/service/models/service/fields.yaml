@@ -1,0 +1,46 @@
+fields:
+    title:
+        label: 'dchikaka.service::lang.service.title'
+        span: full
+        required: 1
+        type: text
+    slug:
+        label: 'dchikaka.service::lang.service.slug'
+        span: auto
+        required: 1
+        preset:
+            field: title
+            type: slug
+        type: text
+    teaser:
+        label: 'dchikaka.service::lang.service.teaser'
+        span: auto
+        required: 1
+        type: text
+    featured_img:
+        label: 'dchikaka.service::lang.service.featured_img'
+        mode: image
+        useCaption: false
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        required: 1
+        type: fileupload
+        comment: 'At least 800px by 385px'
+    banner_img:
+        label: 'dchikaka.service::lang.service.banner_img'
+        mode: image
+        useCaption: false
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+        comment: 'At least 1920px by 436px'
+    content:
+        label: 'dchikaka.service::lang.service.content'
+        span: full
+        size: large
+        required: 1
+        type: richeditor

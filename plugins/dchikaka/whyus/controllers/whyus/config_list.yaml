@@ -1,0 +1,12 @@
+list: $/dchikaka/whyus/models/whyus/columns.yaml
+modelClass: dchikaka\Whyus\Models\Whyus
+title: Whyus
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'dchikaka/whyus/whyus/update/:id'

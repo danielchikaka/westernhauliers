@@ -1,0 +1,110 @@
+1577611505a:1:{s:10:"slider.htm";a:7:{s:8:"fileName";s:10:"slider.htm";s:7:"content";s:2740:"[viewBag]
+
+[slideshow]
+slideshow = 2
+numberOfSlide = 5
+==
+<!-- SLIDER START
+            ============================================= -->
+
+{% if slideshow.slideshow.slides %}
+<section id="slider" class="home-slider clearfix">
+    <div class="slider-wrapper">
+        <div class="flexslider clearfix">
+            <ul class="slides">
+                {% for i, slide in slideshow.slideshow.slides %}
+                <li class="slide-item clearfix" style="background-image: url({{ slide.image.path }});">
+                    <div class="flex-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="caption-wrap">
+                                    <div class="caption wow fadeInUp" data-wow-delay="1s">
+                                        <h1>{% if slide.name %} {{ slide.name }} {% endif %}</h1>
+                                    </div>
+                                    <div class="caption wow fadeIn" data-wow-delay="2s">
+                                        <p>{% if slide.description %} {{ slide.description|raw }} {% endif %}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                {% endfor %}
+                <!-- 
+                <li class="slide-item clearfix" style="background-image: url({{'assets/img/slider/slide2.jpg'|theme}});">
+                    <div class="flex-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="caption-wrap">
+                                    <div class="caption wow fadeInUp" data-wow-delay="3s">
+                                        <h1>We Deliver Your Goods Fast</h1>
+                                    </div>
+                                    <div class="caption wow fadeIn" data-wow-delay="4s">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                                    </div>
+                                    <div class="caption wow fadeInUp" data-wow-delay="4.5s">
+                                        <a href="#" class="button-normal">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+</section>
+{% endif %}
+<!-- SLIDER END -->
+";s:5:"mtime";i:1577014194;s:6:"markup";s:2674:"<!-- SLIDER START
+            ============================================= -->
+
+{% if slideshow.slideshow.slides %}
+<section id="slider" class="home-slider clearfix">
+    <div class="slider-wrapper">
+        <div class="flexslider clearfix">
+            <ul class="slides">
+                {% for i, slide in slideshow.slideshow.slides %}
+                <li class="slide-item clearfix" style="background-image: url({{ slide.image.path }});">
+                    <div class="flex-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="caption-wrap">
+                                    <div class="caption wow fadeInUp" data-wow-delay="1s">
+                                        <h1>{% if slide.name %} {{ slide.name }} {% endif %}</h1>
+                                    </div>
+                                    <div class="caption wow fadeIn" data-wow-delay="2s">
+                                        <p>{% if slide.description %} {{ slide.description|raw }} {% endif %}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                {% endfor %}
+                <!-- 
+                <li class="slide-item clearfix" style="background-image: url({{'assets/img/slider/slide2.jpg'|theme}});">
+                    <div class="flex-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="caption-wrap">
+                                    <div class="caption wow fadeInUp" data-wow-delay="3s">
+                                        <h1>We Deliver Your Goods Fast</h1>
+                                    </div>
+                                    <div class="caption wow fadeIn" data-wow-delay="4s">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                                    </div>
+                                    <div class="caption wow fadeInUp" data-wow-delay="4.5s">
+                                        <a href="#" class="button-normal">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+</section>
+{% endif %}
+<!-- SLIDER END -->";s:4:"code";N;s:7:"viewBag";a:0:{}s:9:"slideshow";a:2:{s:9:"slideshow";s:1:"2";s:13:"numberOfSlide";s:1:"5";}}}

@@ -1,0 +1,11 @@
+columns:
+    title:
+        label: 'dchikaka.service::lang.service.title'
+        type: text
+        searchable: true
+        sortable: true
+    teaser:
+        label: 'dchikaka.service::lang.service.teaser'
+        type: text
+        searchable: true
+        sortable: true

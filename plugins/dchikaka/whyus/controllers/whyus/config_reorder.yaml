@@ -1,0 +1,4 @@
+title: Whyus
+modelClass: dchikaka\Whyus\Models\Whyus
+toolbar:
+    buttons: reorder_toolbar

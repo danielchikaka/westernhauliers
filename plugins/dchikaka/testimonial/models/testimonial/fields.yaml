@@ -1,0 +1,27 @@
+fields:
+    author_name:
+        label: 'Author Name'
+        span: auto
+        required: 1
+        type: text
+    author_title:
+        label: 'Author Title'
+        span: auto
+        required: 1
+        type: text
+    author_img:
+        label: 'Author Image'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+        comment: 'Has to be 68px by 68px'
+    content:
+        label: Content
+        span: auto
+        size: small
+        required: 1
+        type: textarea

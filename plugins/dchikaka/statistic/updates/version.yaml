@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table dchikaka_statistic_statistics'
+    - builder_table_create_dchikaka_statistic_statistics.php
+1.0.3:
+    - 'Updated table dchikaka_statistic_statistics'
+    - builder_table_update_dchikaka_statistic_statistics.php
+1.0.4:
+    - 'Updated table dchikaka_statistic_statistics'
+    - builder_table_update_dchikaka_statistic_statistics_2.php
+1.0.5:
+    - 'Updated table dchikaka_statistic_statistics'
+    - builder_table_update_dchikaka_statistic_statistics_3.php
+1.0.6:
+    - 'Updated table dchikaka_statistic_statistics'
+    - builder_table_update_dchikaka_statistic_statistics_4.php

@@ -1,0 +1,10 @@
+name: Testimonial
+form: $/dchikaka/testimonial/models/testimonial/fields.yaml
+modelClass: dchikaka\Testimonial\Models\Testimonial
+defaultRedirect: dchikaka/testimonial/testimonial
+create:
+    redirect: 'dchikaka/testimonial/testimonial/update/:id'
+    redirectClose: dchikaka/testimonial/testimonial
+update:
+    redirect: dchikaka/testimonial/testimonial
+    redirectClose: dchikaka/testimonial/testimonial

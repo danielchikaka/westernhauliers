@@ -1,0 +1,65 @@
+tabs:
+  
+  fields:
+    site_name:
+      tab: General
+      type: text
+      label: Website Name
+      comment: The name of the website
+      default: Western Hauliers Company Ltd
+      span: auto
+    opening_hours:
+      tab: General
+      type: text
+      label: Office Hours
+      comment: Office Opening Days and Hours
+      default: Mon - Sat 09.00 - 17.00
+      span: auto
+    office_phone:
+      tab: General
+      type: text
+      label: Office Phone
+      comment: Office Phone Number
+      default: (+255) 789 789 789
+      span: auto
+    office_email:
+      tab: General
+      type: text
+      label: Office Email
+      comment: Office Email Address
+      default: info@westernhauliers.com
+      span: auto
+    facebook:
+      tab: Social Mediab
+      type: text
+      label: Facebook Page
+      comment: Office Facebook page
+      default: #
+      span: auto
+    twitter:
+      tab: Social Media
+      type: text
+      label: Twitter Account
+      comment: Office Twitter Page
+      span: auto
+      default: #
+    linkedin:
+      tab: Social Media
+      type: text
+      label: Linkedin Account
+      comment: Office Linkedin Page
+      default: #
+      span: auto
+    instagram:
+      tab: Social Media
+      type: text
+      label: Instagram Page
+      comment: Office Instagram Page
+      default: #
+      span: auto
+    footer_about:
+      label: Footer About Us
+      comment: Footer About Us
+      type: richeditor
+      default: About Us content is needed here
+      span: auto

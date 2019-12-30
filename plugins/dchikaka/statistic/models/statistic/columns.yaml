@@ -1,0 +1,16 @@
+columns:
+    summary:
+        label: Summary
+        type: text
+        searchable: true
+        sortable: true
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    content:
+        label: Content
+        type: text
+        searchable: true
+        sortable: true

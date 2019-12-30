@@ -1,0 +1,16 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        required: 1
+        type: text
+    icon:
+        label: Icon
+        span: auto
+        required: 1
+        type: text
+    content:
+        label: Content
+        span: full
+        size: small
+        type: textarea

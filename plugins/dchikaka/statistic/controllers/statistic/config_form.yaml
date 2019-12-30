@@ -1,0 +1,11 @@
+name: Statistic
+modelClass: dchikaka\Statistic\Models\Statistic
+form: $/dchikaka/statistic/models/statistic/fields.yaml
+defaultRedirect: dchikaka/statistic/statistic
+create:
+    redirect: 'dchikaka/statistic/statistic/update/:id'
+    redirectClose: dchikaka/statistic/statistic
+update:
+    redirect: dchikaka/statistic/statistic
+    redirectClose: dchikaka/statistic/statistic
+preview: {  }
